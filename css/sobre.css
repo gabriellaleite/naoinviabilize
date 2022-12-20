@@ -1,0 +1,106 @@
+/* Introdução */
+
+.introducao {
+	width: 100%;
+	background: #F8D448;
+	padding: 180px 0 40px 0;
+	margin-bottom: 80px;
+}
+
+.introducao .subtitulo {
+	color: #FF1980;
+	margin-bottom: 20px;
+}
+
+.introducao_descricao {
+	margin-top: -20px;
+}
+
+.introducao_descricao p {
+	text-align: left;
+	margin-left: -10px;
+}
+
+.introducao img {
+	width: 560px;
+    height: 360px;
+	margin-left: 500px;
+	margin-top: -340px;
+	border-radius: 8px;
+}
+
+/* Equipe */
+
+.equipe-deia {
+	margin-bottom: 0px;
+	height: 300px;
+}
+.equipe-deia h3 {
+	color: #FF1980;
+	font: 500 26px 'Poppins', sans-serif;
+}
+
+.deia-imagem {
+	width: 420px;
+	height: 220px;
+	box-shadow: 0px 40px 10px 0px #a6a6a6ab;
+}
+
+.deia-descricao h3::before {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 3px;
+	background: #FF1980;
+	margin: 0px 0 4px 0;
+}
+
+.deia-descricao {
+	margin-top: 10px;
+}
+
+.equipe-todos {
+	margin-bottom: 60px;
+}
+.equipe-todos img {
+	width: 100%;
+	height: 150px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 6px 8px 0px #a6a6a6ab;
+}
+
+.equipe-todos h3 {
+	color: #FF1980;
+	font: 500 20px 'Poppins', sans-serif;
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.equipe-todos p {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+.equipe-redes {
+	text-align: left;
+}
+
+.equipe-redes li {
+	display: inline-block;
+	margin-right: 12px;
+
+}
+
+.equipe-redes li a {
+	color: #ED1C16;
+	font-size: 20px;
+}
+
+.equipe-redes li a:hover {
+	color: #FF1980;
+}
+
+

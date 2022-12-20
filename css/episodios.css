@@ -1,0 +1,79 @@
+
+.filtro-quadros {
+    margin-top: 160px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.filtro-quadros ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.filtro-quadros ul li img {
+    width: 80px;
+    height: 80px;
+}
+
+.episodios-todos {
+	margin-bottom: 40px;
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 6px 8px 0px #a6a6a6ab;
+}
+.episodios-todos img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 8px;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.episodios-todos h3 {
+	color: #FF1980;
+	font: 500 20px 'Poppins', sans-serif;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.episodios-todos h4 {
+	color:#920042;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 12px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.episodios-todos p {
+    color: #ADADAD;
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	height: 40px;
+}
+
+.btn-ep {
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	color: white;
+	font: 400 16px 'Poppins', sans-serif;
+	line-height: 40px;
+	text-align: center;
+	background: #ED1C16;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.btn-ep:hover {
+	background: #FF1980;
+	color: white;
+}
+
+

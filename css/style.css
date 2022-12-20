@@ -1,0 +1,25 @@
+/* Requisitos */ 
+@import "./normalize.css";
+@import "./reset.css";
+@import "./grid.css";
+@import "./responsivo.css";
+
+/* Global */
+
+@import "./global/header.css";
+@import "./global/footer.css";
+@import "./global/global.css";
+
+
+/* Páginas */
+
+@import "./home.css";
+@import "./contato.css";
+@import "./sobre.css";
+@import "./projetos.css";
+@import "./loja.css";
+@import "./episodios.css";
+@import "./episodio.css";
+@import "./assine.css";
+
+

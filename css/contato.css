@@ -1,0 +1,226 @@
+.interna_contato {
+	margin-top: 180px;
+}
+
+.interna_contato h2 {
+	margin-bottom: 40px;
+}
+
+.interna_contato h1 {
+	font-size: 48px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #FF1980;
+	text-align: left;
+	margin-top: -10px;
+}
+
+.interna_contato p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 60px;
+	color: #920042;
+}
+
+.historia-titulo h1 {
+	font-size: 48px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #FF1980;
+	text-align: left;
+	margin-top: -10px;
+}
+
+/*Contato*/
+
+.contato {
+	padding: 40px 0;
+}
+
+.contato_form {
+	padding-right: 60px;
+}
+
+.contato_form label {
+	color: #FF1980;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contato_form input {
+	color: #920042;;
+	display: block;
+	width: 100%;
+	border: 2px solid #fec63e;
+	border-radius: 4px;
+	background: #fffdf466;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 2px 2px 2px #6d6d6d24;
+}
+
+.contato_form textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	border: 2px solid #fec63e;
+	border-radius: 4px;
+	background: #fffdf466;
+	padding: 7px 10px;
+	margin-bottom: 20px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 2px 2px 2px #6d6d6d24;
+	resize: none;
+}
+
+.contato_form button {
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	color: white;
+	font: 400 16px 'Poppins', sans-serif;
+	line-height: 10px;
+	text-align: center;
+	background: #ED1C16;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.contato_form button:hover {
+	background: #FF1980;
+	color: white;
+}
+
+/* HIstoria */
+
+.historia-bg {
+	background: linear-gradient(white, #FFFAE5);
+}
+
+.historia_form label {
+	color: #FF1980;
+	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.historia_form select {
+	color: #920042;;
+	display: block;
+	width: 100%;
+	border: 2px solid #fec63e;
+	border-radius: 4px;
+	background: #fffdf466;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 2px 2px 2px #6d6d6d24;
+}
+.historia_form input {
+	color: #920042;
+	display: block;
+	width: 100%;
+	border: 2px solid #fec63e;
+	border-radius: 4px;
+	background: #fffdf466;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 2px 2px 2px #6d6d6d24;
+}
+
+.historia_form textarea {
+	color: #920042;;
+	display: block;
+	width: 100%;
+	height: 200px;
+	border: 2px solid #fec63e;
+	border-radius: 4px;
+	background: #fffdf466;
+	padding: 7px 10px;
+	margin-bottom: 10px;
+	outline: none;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 2px 2px 2px #6d6d6d24;
+	resize: none;
+}
+
+.historia_form button {
+	width: 120px;
+	height: 40px;
+	display: inline-block;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	color: white;
+	font: 400 16px 'Poppins', sans-serif;
+	line-height: 10px;
+	text-align: center;
+	background: #ED1C16;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.historia_form button:hover {
+	background: #FF1980;
+	color: white;
+}
+
+.contato_dados h3{
+	color: #FF1980;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 8px;
+}
+
+.contato_dados span {
+	color: #920042;;
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contato_dados span:nth-of-type(even) {
+	margin-bottom: 30px;
+}
+
+.contato-redes ul {
+	margin-top: 10px;
+}
+
+.contato-redes ul {
+	display: block;
+	margin-right: 10px;
+}
+
+.contato-redes ul a {
+	color: #ED1C16;
+	font-size: 26px;
+	margin-right: 15px;
+}
+
+.contato_dados ul a:hover {
+	color: #FF1980;
+}

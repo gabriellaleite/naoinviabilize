@@ -1,0 +1,51 @@
+/* Header */
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: #F8D448; /* Amarelo */
+	padding: 15px 0;
+	z-index: 10;
+	box-shadow: 2px 2px 2px #fec43e8c;
+}
+
+.header_menu {
+	text-align: right;
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.header_menu ul li a {
+	color: #ED1C16;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+	color: #FF1980;
+}
+
+.header_menu ul li a.menu_ativo {
+	color: #FF1980;
+}
+
+.header_menu ul li a:after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 0px;
+	background: #FF1980;
+	margin-top: 4px;
+	transition: 0.3s;
+	position: absolute;
+  }
+  
+  .header_menu ul li a:hover:after {
+	width: 20px;
+  }

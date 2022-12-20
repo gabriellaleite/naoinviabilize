@@ -1,0 +1,61 @@
+.loja-titulo {
+    margin-top: 160px;
+}
+
+.loja-todos {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.loja-todos img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+	overflow: hidden;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+	box-shadow: 0px 6px 8px 0px #a6a6a6ab;
+}
+
+.loja-todos img:hover {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	opacity: 1;
+}
+
+.loja-todos h3 {
+    color: #FF1980;
+    font: 500 20px 'Poppins', sans-serif;
+    margin-bottom: 4px;
+    text-align: center;
+	margin-top: 30px;
+}
+
+.loja-todos h3 a {
+    color: #FF1980;
+    font: 500 20px 'Poppins', sans-serif;
+    margin-bottom: 4px;
+    text-align: center;
+	margin-top: 30px;
+	text-decoration: underline;
+}
+
+.loja-todos h4 {
+    color:#920042;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.loja-todos p {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 14px;
+    height: 100px;
+}
+
+

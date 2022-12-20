@@ -1,0 +1,129 @@
+/* Estilos Gerais */
+h2, h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #FF1980;
+	text-align: left;
+	margin-top: -10px;
+}
+
+h2::first-letter {
+	text-transform: uppercase;
+  }
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #920042;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.btn {
+	display: inline-block;
+	padding: 16px 32px;
+	background: #ED1C16;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	text-transform: uppercase;
+	color: white;
+	font: 400 20px 'Poppins', sans-serif;
+	max-width: max-content;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .btn:hover {
+	background: #FF1980;
+	color: white;
+  }
+
+.subtitulo {
+	font-size: 46px;
+	line-height: 50px;
+	font-weight: 600;
+	color: #FF1980;
+	text-align: left;
+	margin-bottom: 40px;
+	margin-top: -10px;
+}
+
+.subtitulo::first-letter {
+  text-transform: uppercase;
+}
+
+.link {
+	color: #ED1C16;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.link:hover {
+	color: #FF1980;
+	cursor: pointer;
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	border: none;
+	padding: 0px;
+	border-radius: 6px;
+	text-indent: -99px;
+	overflow: hidden;
+	background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+	background: #fec63e;
+}
+
+.js [data-anime] {
+	opacity: 0;
+}
+
+.js .fadeInDown {
+	transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+	opacity: 1;
+	transform: none;
+	transition: opacity 800ms, transform 800ms;
+}

@@ -33,74 +33,95 @@
 		</header>
 
 		<div class="carrossel">
-		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-			<div class="carousel-indicators">
-			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			</div>
-			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="./img/carrossel-youtube.svg" class="d-block w-100" alt="...">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="./img/carrossel-youtube.svg" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/carrossel-loja.svg" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/carrossel-patada.svg" class="d-block w-100" alt="...">
+				  </div>
+				  <div class="carousel-item">
+					<img src="./img/carrossel-vaga.svg" class="d-block w-100" alt="...">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
 			  </div>
-			  <div class="carousel-item">
-				<img src="./img/carrossel-loja.svg" class="d-block w-100" alt="...">
-			  </div>
-			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			  <span class="visually-hidden">Next</span>
-			</button>
-		  </div>
 		</div>
-		
-		<section class="parceiros container fadeInDown" data-anime="1200" aria-label="Nossos Parceiros">
+
+		<section class="assinatura-home">
+			<div class="container fadeInDown" data-anime="1600">
+				<p class="p-assine">PRA TODO MUNDO OUVIR</p>
+				<h2 class="subtitulo">histórias em LIBRAS, <br>conheça nosso canal</h2>
+					<div class="grid-8 assine_descricao">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est. 
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est</p>
+							<br><a href="https://www.youtube.com/@NaoInviabilize" target="_blank" class="btn">INSCREVA-SE NO CANAL</a>
+						</div>
+				<div class="pequena grid-16">
+					<div class="grid-1-4 assine_pequena">
+					    <span class="fone material-symbols-outlined">sign_language</span><h2>Histórias Adaptadas</h2>
+						<p>O Não Inviabilize é um canal de podcast adaptado para o Youtube. </p>
+					</div>
+					<div class="grid-1-4 assine_pequena">
+						<span class="fone material-symbols-outlined">subtitles</span><h2 class="titulo_pequena">Libras e Legendas</h2>
+						<p>As histórias foram transcritas, revisadas e transformadas em legenda para os episódios traduzidos em Libras.</p>
+					</div>
+				</div>
+				<div id="ytplayer" class= "grid-100">
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '560',
+      width: '360',
+      videoId: 'hfCcjs_9y3k'
+    });
+  }
+</script>
+</div>
+				<!-- <img class="grid-16" src="./img/assine.svg"> -->
+			</div>
+		</section>
+
+		<section class="parceiros fadeInDown" data-anime="1200" aria-label="Nossos Parceiros">
 			<ul>
 			  <li><a href="https://open.spotify.com/show/66XCLKbi33MubYTZX2G2jW" target="_blank"><img src="./img/spotify.svg"></a></li>
 			  <li><a href="https://www.youtube.com/@NaoInviabilize" target="_blank"><img src="./img/youtube.svg"></a></li>
 			  <li><a href="https://www.deezer.com/br/show/1950252?deferredFl=1" target="_blank"><img src="./img/deezer.svg"></a></li>
 			  <li><a href="https://podcasts.apple.com/us/podcast/n%C3%A3o-inviabilize/id1498261768?uo=4" target="_blank"><img src="./img/apple.svg"></a></li>
-			  <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NDA2NDU4NC9wb2RjYXN0L3Jzcw==" target="_blank"><img src="./img/google.svg"></a></li>
+			  <li><img src="./img/blank.svg"></li>
 			  <li><a href="https://pca.st/7641eiv0" target="_blank"><img src="./img/pocket.svg"></a></li>
-			  <li><a href="https://apoia.se/naoinviabilize target="_blank"><img src="./img/apoiase.svg"></a></li>
-			  <li><a href="https://orelo.cc/podcast/5e8a485d83d35d7aae91c591" target="_blank"><img src="./img/orelo.svg"></a></li>
-			</ul>
+			  <li><a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80NDA2NDU4NC9wb2RjYXN0L3Jzcw==" target="_blank"><img src="./img/google.svg"></a></li>
+			  <li><img src="./img/blank.svg"></li>
 		  </section>
 
-		<section class="assinatura-home">
-			<div class="container fadeInDown" data-anime="1600">
-				<p class="p-assine">ASSINE</p>
-				<h2 class="subtitulo">histórias exclusivas, <br>ouça primeiro</h2>
-					<div class="grid-8 assine_descricao">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est. 
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est</p>
-							<br><a href="./" class="link">clique aqui e assine</a>
-						</div>
-				<div class="pequena grid-16">
-					<div class="grid-1-5 assine_pequena">
-					    <span class="material-symbols-outlined star">auto_awesome</span><h2 class="titulo_pequena">Histórias Exclusivas</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est.</p>
-					</div>
-					<div class="grid-1-5 assine_pequena">
-						<span class="material-symbols-outlined fone">headphones</span><h2 class="titulo_pequena">Ouça Primeiro</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est.</p>
-					</div>
-				</div>
-				<img class="grid-16" src="./img/assine.svg">
-			</div>
-		</section>
-
-		<section class="depoimento" aria-label="Depoimento">
+		  <section class="depoimento" aria-label="Depoimento">
 			<div class="depoimento-conteudo">
 			  <blockquote class="grid-8">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere possimus, omnis voluptas assumenda est. Lorem ipsum dolor sit amet.</p>
 			  </blockquote>
-			  <span class="grid-8" style="font-weight: 600; font-size: 20px; color: #4F0828;">Fulano de Tal</span>
+			  <span class="grid-8" style="font-weight: 600; font-size: 20px; color: #4F0828;">Nome - Mídia</span>
 			</div>
-		  </section>
+		</section>
 
 		<footer>
 			<div class="footer">

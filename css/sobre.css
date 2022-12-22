@@ -75,6 +75,14 @@
 	font: 500 20px 'Poppins', sans-serif;
 	margin-bottom: 4px;
 	text-align: center;
+	margin-top: 20px;
+}
+
+.equipe-todos h6 {
+	color: black;
+	font: 600 14px 'Poppins', sans-serif;
+	margin-bottom: 4px;
+	text-align: center;
 }
 
 .equipe-todos p {
@@ -85,7 +93,7 @@
 }
 
 .equipe-redes {
-	text-align: left;
+	text-align: center;
 }
 
 .equipe-redes li {
@@ -101,6 +109,10 @@
 
 .equipe-redes li a:hover {
 	color: #FF1980;
+}
+
+.subtitulo-sobre h2 {
+	margin-left: -2000px;
 }
 
 

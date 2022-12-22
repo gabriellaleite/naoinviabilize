@@ -1,30 +1,3 @@
-/*Contato*/
-
-.imprensa {
-	margin-top: 140px;
-	text-align: center;
-	background-color: #FFFAE5;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border-radius: 4px;
-	box-shadow: 0px 6px 8px 0px #a6a6a6ab;
-}
-
-.imprensa_dados h3 {
-	color: #FF1980;
-	font-family: 'Poppins', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	margin-bottom: 8px;
-}
-
-.imprensa_dados span {
-	color: #920042;;
-	display: block;
-	font-size: 16px;
-	line-height: 30px;
-	font-family: 'Roboto', sans-serif;
-}
 
 
 /* CRONICAS */
@@ -34,7 +7,11 @@
 }
 
 .entrevista-titulo {
-    margin-top: 40px;
+    margin-top: 160px;
+}
+
+.entrevistas {
+	margin-bottom: 60px;
 }
 
 .cronicas-todos, .entrevista-todos {

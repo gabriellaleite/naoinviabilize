@@ -1,30 +1,12 @@
-.carrossel {
-	margin-top: 100px;
-}
 
 /* ASSINATURA */
 
 .assine-home {
-    margin-top: 60px;
+    margin-top: 160px;
 	width: 100%;
     margin-bottom: 60px;
 }
 
-.pequena-home {
-    background-color: #F8D448;
-    height: 220px;
-    margin-left: 500px;
-    margin-top: 30px;
-    border-radius: 4px;
-	box-shadow: 0px 6px 8px 0px #a6a6a6ab;
-}
-
-.p-home {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	line-height: 60px;
-	color: #920042;
-}
 
 .assine-home .subtitulo {
 	color: #FF1980;
@@ -68,6 +50,9 @@
 .imagem {
     margin-top: 20px;
 }
+.imagem img {
+	border-radius: 20px;
+}
 
 .assine-quadro_home {
     position: absolute;
@@ -81,6 +66,10 @@
 
 
 /*LIBRAS*/
+
+.assinatura-home {
+	margin-bottom: 80px;
+}
 
 .p-assine {
 	font-family: 'Roboto', sans-serif;
